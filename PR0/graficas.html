@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Gráfica de Rendimiento</title>
+   <style>
+       body { font-family: Arial; margin: 40px; }
+       h2 { text-align: center; }
+       .bar { 
+           background: blue; 
+           color: white; 
+           margin: 5px 0; 
+           padding: 5px;
+       }
+       .heap { background: blue; }
+       .list { background: green; }
+   </style>
+</head>
+<body>
+   <h2>MinHeap vs Lista Ligada (1000 pacientes)</h2>
+   
+   <h3>Insert:</h3>
+   <div class="bar heap" style="width: 50px;">Heap: 0.25ms</div>
+   <div class="bar list" style="width: 500px;">Lista: 5.06ms</div>
+   
+   <h3>Search:</h3>
+   <div class="bar heap" style="width: 68px;">Heap: 0.068ms</div>
+   <div class="bar list" style="width: 68px;">Lista: 0.068ms</div>
+   
+   <h3>Extract:</h3>
+   <div class="bar heap" style="width: 260px;">Heap: 0.026ms</div>
+   <div class="bar list" style="width: 14px;">Lista: 0.001ms</div>
+   
+   <h3>Análisis de Resultados:</h3>
+   <p><b>MinHeap es la estructura óptima para el Sistema de Triage Hospitalario</b></p>
+   
+   <p><b>Ventajas del MinHeap:</b></p>
+   <ul>
+       <li><b>Inserción 20x más rápida (0.25ms vs 5.06ms):</b> Crítico porque en urgencias llegan pacientes constantemente. Con 1000 pacientes, MinHeap ahorra 4.8 segundos.</li>
+       <li><b>Complejidad O(log n) vs O(n):</b> La diferencia crece exponencialmente con más pacientes.</li>
+       <li><b>Memoria eficiente:</b> Usa un array contiguo, mejor localidad de caché.</li>
+   </ul>
+   
+   <p><b>Trade-offs:</b></p>
+   <ul>
+       <li><b>Extracción 18x más lenta:</b> Pero sigue siendo rápida (0.026ms). Aceptable porque se atienden menos pacientes de los que llegan.</li>
+       <li><b>Búsqueda similar (O(n)):</b> Ambas estructuras son ineficientes para búsqueda por ID.</li>
+   </ul>
+   
+   <p><b>Conclusión:</b> En un escenario real donde llegan ~100 pacientes/hora pero solo se atienden ~20/hora, el cuello de botella es la inserción. MinHeap reduce significativamente el tiempo de registro, mejorando la eficiencia del triage.</p>
+</body>
+</html>
