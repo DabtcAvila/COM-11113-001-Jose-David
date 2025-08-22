@@ -26,7 +26,7 @@
 ## Instrucciones de Compilación y Ejecución
 
 ### Opción 1: Desde Terminal
-// ```bash
+
 **Navegar a la carpeta del proyecto**
 cd PR0
 
