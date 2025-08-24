@@ -46,58 +46,60 @@ public class Main {
     private static void testPerformanceComparison() {
         System.out.println("\n\n--- Comparación de Rendimiento ---");
         
-        MinHeapTriage heap = new MinHeapTriage();
-        SortedLinkedListTriage list = new SortedLinkedListTriage();
-        
-        int numPatients = 1000;
-        Patient[] patients = generateRandomPatients(numPatients);
-        
-        System.out.println("\nPrueba con " + numPatients + " pacientes:");
-        
-        long startTime, endTime;
-        
-        startTime = System.nanoTime();
-        for (Patient p : patients) {
-            heap.insert(p);
+        for (int numPatients = 100; numPatients <= 1000; numPatients += 100) {
+            MinHeapTriage heap = new MinHeapTriage();
+            SortedLinkedListTriage list = new SortedLinkedListTriage();
+            
+            Patient[] patients = generateRandomPatients(numPatients);
+            
+            System.out.println("\nPrueba con " + numPatients + " pacientes:");
+            
+            long startTime, endTime;
+            
+            startTime = System.nanoTime();
+            for (Patient p : patients) {
+                heap.insert(p);
+            }
+            endTime = System.nanoTime();
+            System.out.println("Heap Insert: " + (endTime - startTime) / 1000000.0 + " ms");
+            
+            startTime = System.nanoTime();
+            for (Patient p : patients) {
+                list.insert(p);
+            }
+            endTime = System.nanoTime();
+            System.out.println("List Insert: " + (endTime - startTime) / 1000000.0 + " ms");
+            
+            startTime = System.nanoTime();
+            for (int i = 1; i <= 10; i++) {
+                heap.search(i);
+            }
+            endTime = System.nanoTime();
+            System.out.println("Heap Search (10 búsquedas): " + (endTime - startTime) / 1000000.0 + " ms");
+            
+            startTime = System.nanoTime();
+            for (int i = 1; i <= 10; i++) {
+                list.search(i);
+            }
+            endTime = System.nanoTime();
+            System.out.println("List Search (10 búsquedas): " + (endTime - startTime) / 1000000.0 + " ms");
+            
+            startTime = System.nanoTime();
+            for (int i = 0; i < 10 && !heap.isEmpty(); i++) {
+                heap.extractMin();
+            }
+            endTime = System.nanoTime();
+            System.out.println("Heap ExtractMin (10 extracciones): " + (endTime - startTime) / 1000000.0 + " ms");
+            
+            startTime = System.nanoTime();
+            for (int i = 0; i < 10 && !list.isEmpty(); i++) {
+                list.extractMin();
+            }
+            endTime = System.nanoTime();
+            System.out.println("List ExtractMin (10 extracciones): " + (endTime - startTime) / 1000000.0 + " ms");
         }
-        endTime = System.nanoTime();
-        System.out.println("Heap Insert: " + (endTime - startTime) / 1000000.0 + " ms");
-        
-        startTime = System.nanoTime();
-        for (Patient p : patients) {
-            list.insert(p);
-        }
-        endTime = System.nanoTime();
-        System.out.println("List Insert: " + (endTime - startTime) / 1000000.0 + " ms");
-        
-        startTime = System.nanoTime();
-        for (int i = 1; i <= 10; i++) {
-            heap.search(i);
-        }
-        endTime = System.nanoTime();
-        System.out.println("Heap Search (10 búsquedas): " + (endTime - startTime) / 1000000.0 + " ms");
-        
-        startTime = System.nanoTime();
-        for (int i = 1; i <= 10; i++) {
-            list.search(i);
-        }
-        endTime = System.nanoTime();
-        System.out.println("List Search (10 búsquedas): " + (endTime - startTime) / 1000000.0 + " ms");
-        
-        startTime = System.nanoTime();
-        for (int i = 0; i < 10 && !heap.isEmpty(); i++) {
-            heap.extractMin();
-        }
-        endTime = System.nanoTime();
-        System.out.println("Heap ExtractMin (10 extracciones): " + (endTime - startTime) / 1000000.0 + " ms");
-        
-        startTime = System.nanoTime();
-        for (int i = 0; i < 10 && !list.isEmpty(); i++) {
-            list.extractMin();
-        }
-        endTime = System.nanoTime();
-        System.out.println("List ExtractMin (10 extracciones): " + (endTime - startTime) / 1000000.0 + " ms");
     }
+
     
     private static Patient[] generateRandomPatients(int count) {
         Patient[] patients = new Patient[count];
