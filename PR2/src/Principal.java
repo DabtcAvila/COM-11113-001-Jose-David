@@ -59,7 +59,6 @@ public class Principal {
             }
         } catch (IOException e) {
             System.err.println("Error de E/S leyendo " + archivo.toAbsolutePath());
-            e.printStackTrace();
         }
     }
 }
