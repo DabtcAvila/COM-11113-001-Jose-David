@@ -52,7 +52,6 @@ public class Benchmark {
 
             System.out.println("Benchmark completado. Resultados en resultados/tiempos.csv");
         } catch (IOException e) {
-            e.printStackTrace();
         }
     }
 
