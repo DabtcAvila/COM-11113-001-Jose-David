@@ -1,0 +1,13 @@
+m,n,t,algoritmo,tiempo_segundos,timeout,total_burgers,burgers_m,burgers_n,tiempo_restante
+4,9,10,Recursivo,0.000388791,false,2,2,0,2
+4,9,10,Memoizacion,0.000372875,false,2,2,0,2
+4,9,10,Dinamico,0.000185541,false,2,2,0,2
+4,9,100,Recursivo,0.002545708,false,25,25,0,0
+4,9,100,Memoizacion,0.000092500,false,25,25,0,0
+4,9,100,Dinamico,0.000004833,false,25,25,0,0
+4,9,1000,Recursivo,3.000245583,true,0,0,0,0
+4,9,1000,Memoizacion,0.000563000,false,250,250,0,0
+4,9,1000,Dinamico,0.000035625,false,250,250,0,0
+4,9,10000,Recursivo,3.000026958,true,0,0,0,0
+4,9,10000,Memoizacion,0.001367916,false,2500,2500,0,0
+4,9,10000,Dinamico,0.000279958,false,2500,2500,0,0
