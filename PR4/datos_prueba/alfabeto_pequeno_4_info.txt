@@ -1,0 +1,6 @@
+Caso: alfabeto_pequeno_4
+Descripción: Alfabeto reducido, longitud 10
+Cadena A: 'BABBACBCCC'
+Cadena B: 'ACCACCAABB'
+Longitud A: 10
+Longitud B: 10

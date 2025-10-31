@@ -1,0 +1,6 @@
+Caso: palabra_1
+Descripción: Palabras similares
+Cadena A: 'GATO'
+Cadena B: 'PATO'
+Longitud A: 4
+Longitud B: 4

@@ -1,0 +1,6 @@
+Caso: char_simple
+Descripción: Sustitución de un carácter
+Cadena A: 'A'
+Cadena B: 'B'
+Longitud A: 1
+Longitud B: 1

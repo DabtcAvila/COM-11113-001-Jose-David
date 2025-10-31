@@ -1,0 +1,309 @@
+RESUMEN DE CASOS DE PRUEBA
+==================================================
+
+Total de casos generados: 38
+
+Caso: aleatorio_1
+Descripción: Caso aleatorio longitud 3
+Cadena A: 'UDA'
+Cadena B: 'XIH'
+Longitud A: 3
+Longitud B: 3
+
+------------------------------
+Caso: aleatorio_2
+Descripción: Caso aleatorio longitud 5
+Cadena A: 'RCSNB'
+Cadena B: 'ACGHQ'
+Longitud A: 5
+Longitud B: 5
+
+------------------------------
+Caso: aleatorio_3
+Descripción: Caso aleatorio longitud 8
+Cadena A: 'OSIZAYZF'
+Cadena B: 'WNKIEGYK'
+Longitud A: 8
+Longitud B: 8
+
+------------------------------
+Caso: aleatorio_4
+Descripción: Caso aleatorio longitud 10
+Cadena A: 'JUTLSGWCBV'
+Cadena B: 'HYJCHDMIOU'
+Longitud A: 10
+Longitud B: 10
+
+------------------------------
+Caso: aleatorio_5
+Descripción: Caso aleatorio longitud 15
+Cadena A: 'IUWRHVKYYBHBZKM'
+Cadena B: 'ICGSWKGUPMUOEIE'
+Longitud A: 15
+Longitud B: 15
+
+------------------------------
+Caso: alfabeto_pequeno_1
+Descripción: Alfabeto reducido, longitud 3
+Cadena A: 'AAC'
+Cadena B: 'ACC'
+Longitud A: 3
+Longitud B: 3
+
+------------------------------
+Caso: alfabeto_pequeno_2
+Descripción: Alfabeto reducido, longitud 5
+Cadena A: 'CACAC'
+Cadena B: 'CCCBA'
+Longitud A: 5
+Longitud B: 5
+
+------------------------------
+Caso: alfabeto_pequeno_3
+Descripción: Alfabeto reducido, longitud 8
+Cadena A: 'AABABBCB'
+Cadena B: 'ACBCABAC'
+Longitud A: 8
+Longitud B: 8
+
+------------------------------
+Caso: alfabeto_pequeno_4
+Descripción: Alfabeto reducido, longitud 10
+Cadena A: 'BABBACBCCC'
+Cadena B: 'ACCACCAABB'
+Longitud A: 10
+Longitud B: 10
+
+------------------------------
+Caso: alfabeto_pequeno_5
+Descripción: Alfabeto reducido, longitud 15
+Cadena A: 'ACCCBCCBCBBAACB'
+Cadena B: 'AAAACACBCABBCBC'
+Longitud A: 15
+Longitud B: 15
+
+------------------------------
+Caso: ambas_vacias
+Descripción: Ambas cadenas vacías
+Cadena A: ''
+Cadena B: ''
+Longitud A: 0
+Longitud B: 0
+
+------------------------------
+Caso: char_simple
+Descripción: Sustitución de un carácter
+Cadena A: 'A'
+Cadena B: 'B'
+Longitud A: 1
+Longitud B: 1
+
+------------------------------
+Caso: identicas
+Descripción: Cadenas idénticas (distancia = 0)
+Cadena A: 'ABCDE'
+Cadena B: 'ABCDE'
+Longitud A: 5
+Longitud B: 5
+
+------------------------------
+Caso: inversas
+Descripción: Cadenas inversas
+Cadena A: 'ABCDE'
+Cadena B: 'EDCBA'
+Longitud A: 5
+Longitud B: 5
+
+------------------------------
+Caso: muy_diferentes
+Descripción: Cadenas completamente diferentes
+Cadena A: 'AAAA'
+Cadena B: 'BBBB'
+Longitud A: 4
+Longitud B: 4
+
+------------------------------
+Caso: original
+Descripción: Caso original de la práctica
+Cadena A: 'ALGORITMO'
+Cadena B: 'ALTRUISMO'
+Longitud A: 9
+Longitud B: 9
+
+------------------------------
+Caso: palabra_10
+Descripción: Colores
+Cadena A: 'ROJO'
+Cadena B: 'AZUL'
+Longitud A: 4
+Longitud B: 4
+
+------------------------------
+Caso: palabra_1
+Descripción: Palabras similares
+Cadena A: 'GATO'
+Cadena B: 'PATO'
+Longitud A: 4
+Longitud B: 4
+
+------------------------------
+Caso: palabra_2
+Descripción: Una diferencia
+Cadena A: 'CASA'
+Cadena B: 'MASA'
+Longitud A: 4
+Longitud B: 4
+
+------------------------------
+Caso: palabra_3
+Descripción: Animales diferentes
+Cadena A: 'PERRO'
+Cadena B: 'GATO'
+Longitud A: 5
+Longitud B: 4
+
+------------------------------
+Caso: palabra_4
+Descripción: Anagramas
+Cadena A: 'AMOR'
+Cadena B: 'ROMA'
+Longitud A: 4
+Longitud B: 4
+
+------------------------------
+Caso: palabra_5
+Descripción: Sinónimos largos
+Cadena A: 'COMPUTADORA'
+Cadena B: 'ORDENADOR'
+Longitud A: 11
+Longitud B: 9
+
+------------------------------
+Caso: palabra_6
+Descripción: Singular vs plural
+Cadena A: 'RATON'
+Cadena B: 'RATONES'
+Longitud A: 5
+Longitud B: 7
+
+------------------------------
+Caso: palabra_7
+Descripción: Nombres similares
+Cadena A: 'FELIZ'
+Cadena B: 'FELIX'
+Longitud A: 5
+Longitud B: 5
+
+------------------------------
+Caso: palabra_8
+Descripción: Ciudades
+Cadena A: 'MADRID'
+Cadena B: 'PARIS'
+Longitud A: 6
+Longitud B: 5
+
+------------------------------
+Caso: palabra_9
+Descripción: Días de la semana
+Cadena A: 'LUNES'
+Cadena B: 'MARTES'
+Longitud A: 5
+Longitud B: 6
+
+------------------------------
+Caso: repeticiones
+Descripción: Caracteres repetidos
+Cadena A: 'AAA'
+Cadena B: 'BBB'
+Longitud A: 3
+Longitud B: 3
+
+------------------------------
+Caso: similitud_0
+Descripción: Similitud aproximada 0%
+Cadena A: 'ABCDEFGHIJ'
+Cadena B: 'RIAIVYVXRD'
+Longitud A: 10
+Longitud B: 10
+
+------------------------------
+Caso: similitud_30
+Descripción: Similitud aproximada 30%
+Cadena A: 'ABCDEFGHIJ'
+Cadena B: 'JFQAYBDCQU'
+Longitud A: 10
+Longitud B: 10
+
+------------------------------
+Caso: similitud_50
+Descripción: Similitud aproximada 50%
+Cadena A: 'ABCDEFGHIJ'
+Cadena B: 'LACPDZBADE'
+Longitud A: 10
+Longitud B: 10
+
+------------------------------
+Caso: similitud_70
+Descripción: Similitud aproximada 70%
+Cadena A: 'ABCDEFGHIJ'
+Cadena B: 'FGADYBECRC'
+Longitud A: 10
+Longitud B: 10
+
+------------------------------
+Caso: similitud_90
+Descripción: Similitud aproximada 90%
+Cadena A: 'ABCDEFGHIJ'
+Cadena B: 'BCHAIWDFGE'
+Longitud A: 10
+Longitud B: 10
+
+------------------------------
+Caso: subcadena
+Descripción: Una es subcadena de la otra
+Cadena A: 'ABCDE'
+Cadena B: 'ACE'
+Longitud A: 5
+Longitud B: 3
+
+------------------------------
+Caso: texto_vacia
+Descripción: Texto vs cadena vacía (solo eliminaciones)
+Cadena A: 'MUNDO'
+Cadena B: ''
+Longitud A: 5
+Longitud B: 0
+
+------------------------------
+Caso: una_eliminacion
+Descripción: Una eliminación al final
+Cadena A: 'ABCD'
+Cadena B: 'ABC'
+Longitud A: 4
+Longitud B: 3
+
+------------------------------
+Caso: una_insercion
+Descripción: Una inserción al final
+Cadena A: 'ABC'
+Cadena B: 'ABCD'
+Longitud A: 3
+Longitud B: 4
+
+------------------------------
+Caso: una_sustitucion
+Descripción: Una sustitución al final
+Cadena A: 'ABC'
+Cadena B: 'ABD'
+Longitud A: 3
+Longitud B: 3
+
+------------------------------
+Caso: vacia_texto
+Descripción: Cadena vacía vs texto (solo inserciones)
+Cadena A: ''
+Cadena B: 'HOLA'
+Longitud A: 0
+Longitud B: 4
+
+------------------------------

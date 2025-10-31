@@ -1,0 +1,6 @@
+Caso: palabra_7
+Descripción: Nombres similares
+Cadena A: 'FELIZ'
+Cadena B: 'FELIX'
+Longitud A: 5
+Longitud B: 5

@@ -1,0 +1,6 @@
+Caso: identicas
+Descripción: Cadenas idénticas (distancia = 0)
+Cadena A: 'ABCDE'
+Cadena B: 'ABCDE'
+Longitud A: 5
+Longitud B: 5

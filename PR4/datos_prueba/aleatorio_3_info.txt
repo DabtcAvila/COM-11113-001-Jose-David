@@ -1,0 +1,6 @@
+Caso: aleatorio_3
+Descripción: Caso aleatorio longitud 8
+Cadena A: 'OSIZAYZF'
+Cadena B: 'WNKIEGYK'
+Longitud A: 8
+Longitud B: 8

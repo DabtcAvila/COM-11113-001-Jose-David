@@ -1,0 +1,6 @@
+Caso: alfabeto_pequeno_5
+Descripción: Alfabeto reducido, longitud 15
+Cadena A: 'ACCCBCCBCBBAACB'
+Cadena B: 'AAAACACBCABBCBC'
+Longitud A: 15
+Longitud B: 15

@@ -1,0 +1,6 @@
+Caso: palabra_8
+Descripción: Ciudades
+Cadena A: 'MADRID'
+Cadena B: 'PARIS'
+Longitud A: 6
+Longitud B: 5

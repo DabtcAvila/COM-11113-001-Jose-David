@@ -1,0 +1,6 @@
+Caso: una_insercion
+Descripción: Una inserción al final
+Cadena A: 'ABC'
+Cadena B: 'ABCD'
+Longitud A: 3
+Longitud B: 4

@@ -1,0 +1,6 @@
+Caso: similitud_90
+Descripción: Similitud aproximada 90%
+Cadena A: 'ABCDEFGHIJ'
+Cadena B: 'BCHAIWDFGE'
+Longitud A: 10
+Longitud B: 10

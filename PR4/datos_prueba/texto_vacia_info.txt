@@ -1,0 +1,6 @@
+Caso: texto_vacia
+Descripción: Texto vs cadena vacía (solo eliminaciones)
+Cadena A: 'MUNDO'
+Cadena B: ''
+Longitud A: 5
+Longitud B: 0

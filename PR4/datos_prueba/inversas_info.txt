@@ -1,0 +1,6 @@
+Caso: inversas
+Descripción: Cadenas inversas
+Cadena A: 'ABCDE'
+Cadena B: 'EDCBA'
+Longitud A: 5
+Longitud B: 5

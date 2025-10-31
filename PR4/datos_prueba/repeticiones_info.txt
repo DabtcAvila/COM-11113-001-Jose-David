@@ -1,0 +1,6 @@
+Caso: repeticiones
+Descripción: Caracteres repetidos
+Cadena A: 'AAA'
+Cadena B: 'BBB'
+Longitud A: 3
+Longitud B: 3

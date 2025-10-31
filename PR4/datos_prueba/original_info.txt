@@ -1,0 +1,6 @@
+Caso: original
+Descripción: Caso original de la práctica
+Cadena A: 'ALGORITMO'
+Cadena B: 'ALTRUISMO'
+Longitud A: 9
+Longitud B: 9

@@ -1,0 +1,6 @@
+Caso: alfabeto_pequeno_3
+Descripción: Alfabeto reducido, longitud 8
+Cadena A: 'AABABBCB'
+Cadena B: 'ACBCABAC'
+Longitud A: 8
+Longitud B: 8

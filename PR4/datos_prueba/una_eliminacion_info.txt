@@ -1,0 +1,6 @@
+Caso: una_eliminacion
+Descripción: Una eliminación al final
+Cadena A: 'ABCD'
+Cadena B: 'ABC'
+Longitud A: 4
+Longitud B: 3

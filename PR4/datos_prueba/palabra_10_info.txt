@@ -1,0 +1,6 @@
+Caso: palabra_10
+Descripción: Colores
+Cadena A: 'ROJO'
+Cadena B: 'AZUL'
+Longitud A: 4
+Longitud B: 4

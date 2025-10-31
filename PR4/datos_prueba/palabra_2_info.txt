@@ -1,0 +1,6 @@
+Caso: palabra_2
+Descripción: Una diferencia
+Cadena A: 'CASA'
+Cadena B: 'MASA'
+Longitud A: 4
+Longitud B: 4

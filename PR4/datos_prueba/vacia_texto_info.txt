@@ -1,0 +1,6 @@
+Caso: vacia_texto
+Descripción: Cadena vacía vs texto (solo inserciones)
+Cadena A: ''
+Cadena B: 'HOLA'
+Longitud A: 0
+Longitud B: 4

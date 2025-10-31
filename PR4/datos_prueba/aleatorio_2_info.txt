@@ -1,0 +1,6 @@
+Caso: aleatorio_2
+Descripción: Caso aleatorio longitud 5
+Cadena A: 'RCSNB'
+Cadena B: 'ACGHQ'
+Longitud A: 5
+Longitud B: 5

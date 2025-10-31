@@ -1,0 +1,6 @@
+Caso: ambas_vacias
+Descripción: Ambas cadenas vacías
+Cadena A: ''
+Cadena B: ''
+Longitud A: 0
+Longitud B: 0

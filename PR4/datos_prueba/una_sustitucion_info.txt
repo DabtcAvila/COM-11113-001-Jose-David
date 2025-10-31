@@ -1,0 +1,6 @@
+Caso: una_sustitucion
+Descripción: Una sustitución al final
+Cadena A: 'ABC'
+Cadena B: 'ABD'
+Longitud A: 3
+Longitud B: 3

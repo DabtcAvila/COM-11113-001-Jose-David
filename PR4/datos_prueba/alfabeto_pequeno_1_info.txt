@@ -1,0 +1,6 @@
+Caso: alfabeto_pequeno_1
+Descripción: Alfabeto reducido, longitud 3
+Cadena A: 'AAC'
+Cadena B: 'ACC'
+Longitud A: 3
+Longitud B: 3

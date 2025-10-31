@@ -1,0 +1,6 @@
+Caso: palabra_6
+Descripción: Singular vs plural
+Cadena A: 'RATON'
+Cadena B: 'RATONES'
+Longitud A: 5
+Longitud B: 7

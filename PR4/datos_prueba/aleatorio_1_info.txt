@@ -1,0 +1,6 @@
+Caso: aleatorio_1
+Descripción: Caso aleatorio longitud 3
+Cadena A: 'UDA'
+Cadena B: 'XIH'
+Longitud A: 3
+Longitud B: 3

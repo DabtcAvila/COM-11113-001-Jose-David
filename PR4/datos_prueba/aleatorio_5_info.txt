@@ -1,0 +1,6 @@
+Caso: aleatorio_5
+Descripción: Caso aleatorio longitud 15
+Cadena A: 'IUWRHVKYYBHBZKM'
+Cadena B: 'ICGSWKGUPMUOEIE'
+Longitud A: 15
+Longitud B: 15

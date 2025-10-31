@@ -1,0 +1,6 @@
+Caso: palabra_9
+Descripción: Días de la semana
+Cadena A: 'LUNES'
+Cadena B: 'MARTES'
+Longitud A: 5
+Longitud B: 6

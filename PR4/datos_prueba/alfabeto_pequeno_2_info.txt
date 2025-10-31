@@ -1,0 +1,6 @@
+Caso: alfabeto_pequeno_2
+Descripción: Alfabeto reducido, longitud 5
+Cadena A: 'CACAC'
+Cadena B: 'CCCBA'
+Longitud A: 5
+Longitud B: 5

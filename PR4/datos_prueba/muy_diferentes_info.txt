@@ -1,0 +1,6 @@
+Caso: muy_diferentes
+Descripción: Cadenas completamente diferentes
+Cadena A: 'AAAA'
+Cadena B: 'BBBB'
+Longitud A: 4
+Longitud B: 4

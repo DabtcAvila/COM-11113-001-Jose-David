@@ -1,0 +1,6 @@
+Caso: aleatorio_4
+Descripción: Caso aleatorio longitud 10
+Cadena A: 'JUTLSGWCBV'
+Cadena B: 'HYJCHDMIOU'
+Longitud A: 10
+Longitud B: 10

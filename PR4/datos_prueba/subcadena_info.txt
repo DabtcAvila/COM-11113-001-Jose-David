@@ -1,0 +1,6 @@
+Caso: subcadena
+Descripción: Una es subcadena de la otra
+Cadena A: 'ABCDE'
+Cadena B: 'ACE'
+Longitud A: 5
+Longitud B: 3

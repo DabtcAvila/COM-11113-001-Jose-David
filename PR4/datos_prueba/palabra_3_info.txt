@@ -1,0 +1,6 @@
+Caso: palabra_3
+Descripción: Animales diferentes
+Cadena A: 'PERRO'
+Cadena B: 'GATO'
+Longitud A: 5
+Longitud B: 4

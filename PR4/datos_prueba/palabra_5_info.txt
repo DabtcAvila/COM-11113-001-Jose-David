@@ -1,0 +1,6 @@
+Caso: palabra_5
+Descripción: Sinónimos largos
+Cadena A: 'COMPUTADORA'
+Cadena B: 'ORDENADOR'
+Longitud A: 11
+Longitud B: 9
