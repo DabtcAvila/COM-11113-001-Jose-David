@@ -1,0 +1,63 @@
+=== REPORTE PRÁCTICA 3: MEMOIZACIÓN Y PROGRAMACIÓN DINÁMICA ===
+Autores: José Gerardo Malfavaun Gorostizaga y David Fernando Avila Díaz
+Materia: EDA - Prof. Marco Morales Aguirre
+
+📊 RESULTADOS DE CASOS ESPECÍFICOS:
+Format: m=4, n=9, t=[valor]
+
+Caso: m=4, n=9, t=10
+  Solución óptima: 2 hamburguesas (2 tipo M, 0 tipo N)
+  Tiempo restante: 2 minutos
+  Tiempos de ejecución:
+    - Recursivo: 0.231 ms
+    - Memoización: 0.686 ms
+    - Dinámico: 0.586 ms
+
+Caso: m=4, n=9, t=100
+  Solución óptima: 25 hamburguesas (25 tipo M, 0 tipo N)
+  Tiempos de ejecución:
+    - Recursivo: 2.755 ms
+    - Memoización: 0.120 ms
+    - Dinámico: 0.005 ms
+
+Caso: m=4, n=9, t=1000
+  Solución óptima: 250 hamburguesas (250 tipo M, 0 tipo N)
+  Tiempos de ejecución:
+    - Recursivo: TIMEOUT (>3s)
+    - Memoización: 0.478 ms
+    - Dinámico: 0.032 ms
+
+Caso: m=4, n=9, t=10000
+  Solución óptima: 2500 hamburguesas (2500 tipo M, 0 tipo N)
+  Tiempos de ejecución:
+    - Recursivo: TIMEOUT (>3s)
+    - Memoización: 1.183 ms
+    - Dinámico: 0.272 ms
+
+🔍 ANÁLISIS DE RENDIMIENTO:
+
+1. ALGORITMO RECURSIVO:
+   - Complejidad: O(2^t) exponencial
+   - Funciona para casos pequeños (t≤100)
+   - Hace timeout para t≥1000
+   - Sin optimizaciones, explora todo el espacio de búsqueda
+
+2. ALGORITMO CON MEMOIZACIÓN:
+   - Complejidad: O(t²) con cache eficiente
+   - Evita recalcular subproblemas repetidos
+   - Funciona eficientemente hasta t=10000
+   - Usa memoria adicional para el cache
+
+3. ALGORITMO DINÁMICO:
+   - Complejidad: O(t) tiempo, O(t) espacio
+   - Más eficiente en tiempo y espacio
+   - Iterativo, sin riesgo de stack overflow
+   - Solución bottom-up óptima
+
+📈 CONCLUSIONES:
+• El algoritmo recursivo puro es impracticable para casos grandes
+• La memoización mejora dramáticamente el rendimiento
+• La programación dinámica es la solución más eficiente
+• Para este problema específico (m=4, n=9), siempre conviene usar solo tipo M
+
+Reporte generado el: Fri Oct 10 21:01:09 CST 2025

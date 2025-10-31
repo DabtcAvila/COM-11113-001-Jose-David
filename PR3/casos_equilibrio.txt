@@ -1,0 +1,23 @@
+# Casos de prueba generados para análisis de rendimiento
+# Formato: m n t // descripcion (tipo)
+
+# === EQUILIBRADO ===
+10 10 100 // Equilibrado 10 (EQUILIBRADO)
+10 11 100 // Casi equilibrado 10 (EQUILIBRADO)
+100 100 1000 // Equilibrado 100 (EQUILIBRADO)
+100 101 1000 // Casi equilibrado 100 (EQUILIBRADO)
+1000 1000 10000 // Equilibrado 1000 (EQUILIBRADO)
+1000 1001 10000 // Casi equilibrado 1000 (EQUILIBRADO)
+# === DESBALANCEADO ===
+10 20 100 // Desbalanceado 1:2 (DESBALANCEADO)
+20 10 100 // Desbalanceado 2:1 (DESBALANCEADO)
+10 40 200 // Desbalanceado 1:4 (DESBALANCEADO)
+40 10 200 // Desbalanceado 4:1 (DESBALANCEADO)
+10 80 400 // Desbalanceado 1:8 (DESBALANCEADO)
+80 10 400 // Desbalanceado 8:1 (DESBALANCEADO)
+10 160 800 // Desbalanceado 1:16 (DESBALANCEADO)
+160 10 800 // Desbalanceado 16:1 (DESBALANCEADO)
+10 320 1600 // Desbalanceado 1:32 (DESBALANCEADO)
+320 10 1600 // Desbalanceado 32:1 (DESBALANCEADO)
+10 640 3200 // Desbalanceado 1:64 (DESBALANCEADO)
+640 10 3200 // Desbalanceado 64:1 (DESBALANCEADO)

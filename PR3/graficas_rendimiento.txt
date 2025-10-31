@@ -1,0 +1,68 @@
+=== GRÁFICAS DE RENDIMIENTO - PRÁCTICA 3 ===
+Comparación de algoritmos para el problema de hamburguesas
+
+📊 GRÁFICA 1: TIEMPO DE EJECUCIÓN (milisegundos)
+Escala logarítmica aproximada - cada * = factor de ~10x
+
+t=10     Recursivo:    0.152ms
+         Memoización:  0.220ms
+         Dinámico:     0.221ms
+
+t=100    Recursivo:   ██ 2.243ms
+         Memoización:  0.094ms
+         Dinámico:     0.004ms
+
+t=1000   Recursivo:   TIMEOUT (>3000ms) █████████████████████████████████████████████
+         Memoización: █ 0.615ms
+         Dinámico:     0.031ms
+
+t=10000  Recursivo:   TIMEOUT (>3000ms) █████████████████████████████████████████████
+         Memoización: █ 1.322ms
+         Dinámico:     0.287ms
+
+📈 GRÁFICA 2: ESCALABILIDAD
+Crecimiento del tiempo con el tamaño del problema
+
+Algoritmo Recursivo:
+t=10    ▫
+t=100   ████
+t=1000  ████████████████████████ (TIMEOUT)
+t=10000 ████████████████████████ (TIMEOUT)
+Complejidad: O(2^t) - Crecimiento exponencial
+
+Algoritmo Memoización:
+t=10    ▫
+t=100   ▫
+t=1000  ██
+t=10000 ████
+Complejidad: O(t²) - Crecimiento cuadrático
+
+Algoritmo Dinámico:
+t=10    ▫
+t=100   ▫
+t=1000  ▫
+t=10000 ▫
+Complejidad: O(t) - Crecimiento lineal
+
+🏆 COMPARACIÓN DE EFICIENCIA:
+
+Para t=10:
+  Recursivo ≈ Memoización ≈ Dinámico
+  (Casos pequeños, diferencias mínimas)
+
+Para t=100:
+  Dinámico > Memoización > Recursivo
+  (Dinámico 560x más rápido que Recursivo)
+
+Para t≥1000:
+  Dinámico > Memoización >> Recursivo (TIMEOUT)
+  (Solo los optimizados son viables)
+
+📝 OBSERVACIONES CLAVE:
+• El algoritmo recursivo puro se vuelve impracticable rápidamente
+• La memoización reduce la complejidad de O(2^t) a O(t²)
+• La programación dinámica logra complejidad óptima O(t)
+• Para casos grandes (t>1000), solo DP y memoización son viables
+• La diferencia de rendimiento es dramática: factores de 100x-1000x
+
+Gráficas generadas el: Fri Oct 10 21:02:33 CST 2025
